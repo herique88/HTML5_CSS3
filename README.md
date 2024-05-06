@@ -1,7 +1,3 @@
-#### Planejamento
-[![Planejamento](https://github.com/professorjosedeassis/html5css3/blob/main/img/slide2.png)](https://pt.slideshare.net/josedeassisfilho/planejamento-htm5-e-css3 "Apresentação dos slides")
-#### CSS FlexBox
-[![CSS FlexBox](https://github.com/professorjosedeassis/html5css3/blob/main/img/slide.png)](https://pt.slideshare.net/josedeassisfilho/css-flexbox-252669331 "Apresentação dos slides")
 ## Links indicados:
 ### Planejamento
 [cetic](https://www.cetic.br/)
