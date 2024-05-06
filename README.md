@@ -3,8 +3,7 @@
 [cetic](https://www.cetic.br/)
 ### Wireframe
 [draw](https://app.diagrams.net/)
-### Personal designer
-[matheus da costa](https://matheusdacosta.art.br/)
+
 ### Tipografia
 [google fonts](https://fonts.google.com/)
 
