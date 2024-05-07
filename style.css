@@ -1,5 +1,22 @@
+
+* {
+	margin:0;
+	border:0;
+	padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 body {
-    background-color: RGB(128, 187, 219);
+   font-family: 'Open Sans',sans-serif;
+   font-size: 1em;
+}
+
+/* Layout */
+
+.Container {
+    margin: 0 auto;
+    background-color: #77ff;
 }
 
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -10,6 +27,11 @@ body {
     body{
         background-color: #0ff;
     }
+
+    /* Layout */
+    .Container {
+        max-width: 540px;
+    }
 }
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media(min-width: 768px) {
@@ -17,6 +39,12 @@ body {
     body{
         background-color: #F1C40F;
     }
+
+     /* Layout */
+     .Container {
+        max-width: 720px;
+    }
+
 }
 /* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
@@ -24,6 +52,11 @@ body {
     
     body{
         background-color: #ff6600;
+    }
+
+     /* Layout */
+     .Container {
+        max-width: 960px;
     }
 }
 
@@ -33,5 +66,10 @@ body {
     
     body{
         background-color: #51ff00;
+    }
+
+     /* Layout */
+     .Container {
+        max-width: 1140px;
     }
 }
