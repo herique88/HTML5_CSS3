@@ -1,15 +1,18 @@
-
 * {
-	margin:0;
-	border:0;
-	padding:0;
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 body {
-   font-family: 'Open Sans',sans-serif;
-   font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 /* Layout */
@@ -20,19 +23,19 @@ body {
 
 
 .Flex {
-    display:Flex;
+    display: Flex;
     justify-content: space-between;
 }
 
 
 .Flex2 {
-    display:Flex;
+    display: Flex;
     align-items: center;
 }
 
 
 .Flex3 {
-    display:Flex;
+    display: Flex;
     align-items: center;
     flex-direction: column;
 }
@@ -43,7 +46,7 @@ body {
 #topo {
     position: fixed;
     right: 20px;
-    bottom: 10px; 
+    bottom: 10px;
 }
 
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -53,21 +56,21 @@ header {
 }
 
 #logo img {
-    width:128px;
+    width: 128px;
     height: 80px;
     margin-top: 20px;
 }
 
 #check {
-    display:none;
+    display: none;
 }
 
 label {
     font-size: 3em;
     position: fixed;
-    top:5px;
+    top: 5px;
     right: 15px;
-   
+
 }
 
 nav ul {
@@ -75,7 +78,7 @@ nav ul {
     background-color: #F1C40F;
     height: 100vh;
     position: fixed;
-    top:60px;
+    top: 60px;
     right: -100%;
     width: 100%;
     transition: all 0.5s;
@@ -90,10 +93,10 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color:#000;
+    color: #000;
 }
 
-#check:checked ~ ul {
+#check:checked~ul {
     right: 0;
 }
 
@@ -103,7 +106,7 @@ main {
     height: 75vh;
     background: url(img/banner.jpg);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -124,7 +127,7 @@ main h2 {
 
 .Botao {
     text-decoration: none;
-    color:#fff;
+    color: #fff;
     font-size: 1.3em;
     font-weight: 700;
     background-color: #C00;
@@ -147,9 +150,9 @@ main h2 {
 }
 
 .textoSobre {
-    color:#fff;
+    color: #fff;
     padding: 10x 20px;
-    
+
 }
 
 .textoSobre h2 {
@@ -190,16 +193,57 @@ main h2 {
     border: 0;
 }
 
+/* Wireframe */
+#wireframe {
+    padding: 50px 0px;
+    background: url(img/background.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #textoWire {
+    color: #000;
+    padding: 10px 10px;
+  }
+  
+  #textoWire h2 {
+    margin-bottom: 10px;
+  }
+  
+  #textoWire p {
+    margin-bottom: 40px;
+  }
+  
+  #textoWire span {
+    display: none;
+  }
+  
+  #qrcode {
+    display: none;
+  }
+
+
+#qrcode {
+    display: inline;
+}
+
+#qrcode img {
+    width: 225px;
+    height: 225px;
+}
+
+
 /* Smartphone  Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media(min-width: 576px) {
-    
+
     /* Layout */
     .Container {
         max-width: 540px;
     }
 
     /*Destaque */
-    main h1, main h2 {
+    main h1,
+    main h2 {
         text-shadow: #000 0.1em 0.2em 0.2em;
     }
 
@@ -213,13 +257,13 @@ main h2 {
 
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media(min-width: 768px) {
-    
-     /* Layout */
-     .Container {
+
+    /* Layout */
+    .Container {
         max-width: 720px;
     }
 
- 
+
     main h1 {
         font-size: 5.5em;
     }
@@ -228,12 +272,13 @@ main h2 {
         font-size: 2em;
     }
 }
+
 /* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 @media(min-width: 992px) {
-    
-     /* Layout */
-     .Container {
+
+    /* Layout */
+    .Container {
         max-width: 960px;
     }
 
@@ -247,10 +292,10 @@ main h2 {
 /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 @media(min-width: 1200px) {
-    
-   
-     /* Layout */
-     .Container {
+
+
+    /* Layout */
+    .Container {
         max-width: 1140px;
     }
 
@@ -259,29 +304,29 @@ main h2 {
     }
 
     #logo img {
-        width:259px;
+        width: 259px;
         min-height: 189px;
         margin-top: 20px;
     }
 
     label {
         display: none;
-    } 
+    }
 
     nav ul {
         position: static;
-        height:auto;
+        height: auto;
         margin-top: 45px;
     }
 
     nav ul li {
-       float:left;
-       border:0px;
-       font-size: 1.5em;
+        float: left;
+        border: 0px;
+        font-size: 1.5em;
     }
 
     nav ul li a:hover {
-        color:#C00;
+        color: #C00;
     }
 
 
@@ -292,15 +337,14 @@ main h2 {
     .destaqueSobre img {
         border-radius: 50%;
         margin-right: 50px;
-        
+
     }
 
 
     .Flex3 {
-        display:Flex;
+        display: Flex;
         align-items: center;
         flex-direction: row;
     }
-    
-}
 
+}
