@@ -19,8 +19,68 @@ body {
     background-color: #77ff;
 }
 
+
+.Flex {
+    display:Flex;
+    justify-content: space-between;
+    background-color: #a9a9a9;
+}
+
+
+/* Topo do Site*/
+
+#topo {
+    position: fixed;
+    right: 20px;
+    bottom: 10px; 
+}
+
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
+header {
+    height: 60px;
+}
+
+#logo img {
+    width:128px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+#check {
+    display:none;
+}
+
+label {
+    font-size: 3em;
+    padding-right: 15px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #F1C40F;
+    height: 100vh;
+    position: fixed;
+    top:60px;
+    right: -100%;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+nav ul li {
+    padding: 20px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#000;
+}
+
+#check:checked ~ ul {
+    right: 0;
+}
 /* Smartphone  Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media(min-width: 576px) {
     
@@ -71,5 +131,15 @@ body {
      /* Layout */
      .Container {
         max-width: 1140px;
+    }
+
+    header {
+        height: 120px;
+    }
+
+    #logo img {
+        width:259px;
+        min-height: 189px;
+        margin-top: 20px;
     }
 }

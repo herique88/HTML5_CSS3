@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,11 +11,24 @@
     <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!--A seção com logotipo e menu será o  Cabeçalho, ctrl+k e c -->
-    <header>
-        <div class="Container">
-
+    <header id="inicio">
+        <div class="Container Flex">
+            <div id="logo">
+                <img src="img/logo.png" width="150" height="120" alt="HTML5 e CSS3">
+            </div>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check">&#x268C;</label>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#conteudo">Conteúdo</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
@@ -28,7 +42,7 @@
     </main>
 
     <!-- Nesta sessão temos informações sobre o Site, Sobre  -->
-    <section>
+    <section id="sobre">
         <div class="Container">
             <h2>Aprender na Prática</h2>
         </div>
@@ -37,7 +51,7 @@
     <!-- Explicando o que é uma One Page -->
     <section>
         <div class="Container">
-    
+
             <h2> One Page Site</h2>
         </div>
 
@@ -46,26 +60,28 @@
     <!-- Wireframe Documento -->
     <section>
         <div class="Container">
-                <h2>Wireframe</h2>
-        
+            <h2>Wireframe</h2>
+
         </div>
-        
+
     </section>
     <!-- Conteúdo -->
-    <section>
+    <sectio id="conteudo">
         <div class="Container">
-        
+
             <h2>Conteúdo</h2>
             <h3>HTML5</h3>
             <h3>BoxModel CSS</h3>
             <h3>Breakpoints</h3>
-        
+
         </div>
     </section>
-    
+
     <!-- Rodapé -->
-    <footer>
+    <footer id="contato">
 
     </footer>
+    <a href="#inicio" id="topo"><img src="img/topo.png" alt="topo do site"></a>
 </body>
+
 </html>
