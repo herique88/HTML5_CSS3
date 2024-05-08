@@ -72,6 +72,7 @@ nav ul {
     right: -100%;
     width: 100%;
     transition: all 0.5s;
+    opacity: 0.9;
 }
 
 nav ul li {
@@ -160,6 +161,30 @@ main h2 {
 .topicoSobre img {
     margin-right: 10px;
 }
+
+
+/* One Page */
+#onepage {
+    padding:50px 10px;
+}
+
+
+#onepage h2 {
+    margin-bottom: 10px;
+}
+
+#onepage p {
+    margin-bottom: 10px;
+}
+
+
+
+#video iframe {
+    width: 340px;
+    height: 191px;
+    border: 0;
+}
+
 /* Smartphone  Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media(min-width: 576px) {
     
@@ -171,6 +196,12 @@ main h2 {
     /*Destaque */
     main h1, main h2 {
         text-shadow: #000 0.1em 0.2em 0.2em;
+    }
+
+    /* One page */
+    #video iframe {
+        width: 560px;
+        height: 315px;
     }
 }
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
