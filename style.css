@@ -57,7 +57,10 @@ header {
 
 label {
     font-size: 3em;
-    padding-right: 15px;
+    position: fixed;
+    top:5px;
+    right: 15px;
+   
 }
 
 nav ul {
@@ -90,12 +93,14 @@ nav ul li a {
 main {
     height: 75vh;
     background: url(img/banner.jpg);
+    background-position: center;
     background-size:cover;
     color: #fff;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    border-bottom: 1px solid #fff;
 }
 
 
@@ -124,8 +129,8 @@ main h2 {
 #sobre {
     padding: 50px 0px;
     background: url(img/background.png);
+    background-position: center;
     background-size: cover;
-    height: 20vh;
 }
 
 .destaqueSobre {
@@ -135,7 +140,6 @@ main h2 {
 .textoSobre {
     color:#fff;
     padding: 0px 10x;
-    
     
 }
 
@@ -246,5 +250,15 @@ main h2 {
         color:#C00;
     }
 
+
+    .destaqueSobre {
+        display: inline;
+    }
+
+    .destaqueSobre img {
+        border-radius: 50%;
+        margin-right: 50px;
+        
+    }
 }
 
