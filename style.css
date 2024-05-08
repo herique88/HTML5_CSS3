@@ -31,6 +31,13 @@ body {
 }
 
 
+.Flex3 {
+    display:Flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 /* Topo do Site*/
 
 #topo {
@@ -165,7 +172,7 @@ main h2 {
 
 /* One Page */
 #onepage {
-    padding:50px 10px;
+    padding: 50px 10px;
 }
 
 
@@ -174,10 +181,8 @@ main h2 {
 }
 
 #onepage p {
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
-
-
 
 #video iframe {
     width: 340px;
@@ -203,7 +208,9 @@ main h2 {
         width: 560px;
         height: 315px;
     }
+
 }
+
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media(min-width: 768px) {
     
@@ -287,5 +294,13 @@ main h2 {
         margin-right: 50px;
         
     }
+
+
+    .Flex3 {
+        display:Flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    
 }
 
