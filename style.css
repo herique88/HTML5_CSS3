@@ -195,37 +195,27 @@ main h2 {
 
 /* Wireframe */
 #wireframe {
-    padding: 50px 0px;
-    background: url(img/background.png);
-    background-size: cover;
-    background-position: center;
-  }
-  
-  #textoWire {
-    color: #000;
-    padding: 10px 10px;
-  }
-  
-  #textoWire h2 {
-    margin-bottom: 10px;
-  }
-  
-  #textoWire p {
-    margin-bottom: 40px;
-  }
-  
-  #textoWire span {
-    display: none;
-  }
-  
-  #qrcode {
-    display: none;
-  }
+  padding: 50px 0px;
+}
 
+#textoWire {
+ color: #000;
+  padding: 20px 10px;
+  border:1px solid #000;
+}
+
+#textoWire h2 {
+  margin-bottom: 10px;
+}
+
+#textoWire p {
+  margin-bottom: 40px;
+}
 
 #qrcode {
-    display: inline;
+    display: none;
 }
+
 
 #qrcode img {
     width: 225px;
@@ -271,6 +261,11 @@ main h2 {
     main h2 {
         font-size: 2em;
     }
+
+    #qrcode {
+        display: inline;
+    }
+    
 }
 
 /* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -347,4 +342,5 @@ main h2 {
         flex-direction: row;
     }
 
+  
 }
