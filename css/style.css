@@ -151,7 +151,7 @@ nav ul li a {
 main {
 
     height: 75vh;
-    background: url(img/banner.jpg);
+    background: url(../img/banner.jpg);
     background-position: center;
     background-size: cover;
     color: #fff;
@@ -187,7 +187,7 @@ main h2 {
 
 #sobre {
     padding: 50px 0px;
-    background: url(img/background.png);
+    background: url(../img/background.png);
     background-position: center;
     background-size: cover;
 }
@@ -212,7 +212,7 @@ main h2 {
 
 .topicoSobre {
     float: left;
-    margin-right: 20px;
+    margin-right: 80px;
 }
 
 .topicoSobre img {
@@ -363,7 +363,7 @@ main h2 {
 
     nav ul li {
         float: left;
-        border: 0px;
+        margin-left: 5px;
         font-size: 1.5em;
     }
 

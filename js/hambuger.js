@@ -7,8 +7,10 @@ window.onload = function() {
         if(e.target.href != null) {
             document.getElementById('check').checked = false;
             btn.display = false;
+            
         }
       
     });
 };
+
 
