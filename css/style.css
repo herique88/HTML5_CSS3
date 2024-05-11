@@ -125,6 +125,7 @@ nav ul {
   width: 100%;
   transition: all 0.5s;
   opacity: 0.9;
+  z-index: 1;
 }
 
 nav ul li {
@@ -180,11 +181,6 @@ main h2 {
   background: url(../img/background.png);
   background-position: center;
   background-size: cover;
-}
-
-#social :last-child img   {
-  scale:1.2; 
-  z-index: 5;
 }
 
 .destaqueSobre {
@@ -382,3 +378,7 @@ footer {
 }
 
 
+#social :last-child img   {
+    scale:1.2; 
+    z-index: 0;
+}
