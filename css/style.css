@@ -376,6 +376,10 @@ footer {
   bottom: 0;
 }
 
+#contato .social {
+  margin-left: calc(50% - (3 * 52px)); 
+  margin-top: calc(150px - 24px);
+}
 
 .whatsapp {
   width: 52px;
