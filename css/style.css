@@ -182,6 +182,11 @@ main h2 {
   background-size: cover;
 }
 
+#social :last-child img   {
+  scale:1.2; 
+  z-index: 5;
+}
+
 .destaqueSobre {
   display: none;
 }
@@ -375,3 +380,5 @@ footer {
   min-height: 300px;
   bottom: 0;
 }
+
+
