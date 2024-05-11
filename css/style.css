@@ -57,7 +57,7 @@ html {
 
 /* Conteúdo */
 #conteudo {
-    padding: 50px 0px;
+    padding: 20px 0px;
   }
   
   #conteudo h2 {
@@ -371,7 +371,12 @@ main h2 {
         color: #C00;
     }
 
+    nav ul li:hover {
+        transition-property: width ;
+        transition-duration: 1.5s;
 
+    }
+    
     .destaqueSobre {
         display: inline;
     }
@@ -389,5 +394,14 @@ main h2 {
         flex-direction: row;
     }
 
+    
+}
+
+footer {
+        
+    background-color: #434343;
+    position: relative;
+    min-height: 300px;
+    bottom: 0;
 
 }
