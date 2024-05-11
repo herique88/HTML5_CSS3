@@ -370,7 +370,8 @@ main h2 {
 
 footer {
   background-color: #434343;
-  position: relative;
+  display: flex;
+  flex-direction: row;
   min-height: 300px;
   bottom: 0;
 }
